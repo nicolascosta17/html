@@ -1,0 +1,42 @@
+.centro{
+    text-align: center;
+}
+.fundo{
+    background-color: bisque;
+}
+.fundo1{
+    background-color: white;
+    width: 1000;
+    float: left;
+    height: 400px;
+    text-align: center;
+}
+.cor1{  
+    background-color: #836FFF;
+}
+.cor2{
+    background-color: #0000CD;
+    color: white;
+}
+.cor3{
+    background-color: #00BFFF;
+}
+.cor4{
+    background-color: #008080;
+}
+.cor5{
+    background-color: #A0522D;
+}
+.cor6{
+    background-color: #8A2BE2;
+}
+.cor7{
+    background-color: #C71585;
+}
+.cor8{
+    background-color: #DC143C;
+}
+.letra_final{
+    text-align: center;
+    font-weight: bolder;
+}

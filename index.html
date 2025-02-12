@@ -1,60 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Documento</title>
-        <style>
-            /*Adicionar CSS*/
-            .centralizar{
-                text-align: center;
-            }
-            .texto-verde{
-                color: green;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-size: large;
-            }
-            .texto-roxo{
-                color: violet;
-                font-style: italic;
-                font-size: large;
-            }
-            .texto-branco{
-                color: white;
-            }
-            .bordas{
-                border: solid 1px rgb(248, 7, 7);
-                background-color: black;
-            }
-            .btn{
-                background-color: #077e52;/*Verde*/
-                width: 20%; height: 50px;
-            }
-            .btn2{
-                background-color: red;
-                width: 20%; height: 50px;
-            }
-            .centralizar-borda{
-                border-color: black;
-            }
-
-        </style>
-        <body>
-            <h1 class="centralizar">Bem-vindo é o HTML!</h1>
-            <hr>
-            <p class="texto-verde">Este texto é verde Segoe UI </p>
-            <p class="texto-roxo">Este texto é roxo italic </p>
-            <div class="centralizar">
-                <h2>Seção centralizada</h2>
-                <p>Aqui estamos centralizando todo o conteúdo deste div.</p>
-                <img src="html.png"/>
-                <br>
-                <button class="btn">Sim</button>
-                <button class="btn2">Não</button>
-            </div>
-            <br>
-            <hr>
-            <div class="centralizada-borda">
-                <p class="texto-branco">Este é um texto em branco</p>
-            </div>
-         </body>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela HTML</title>
+</head>
+<body class="fundo">
+    <div class="centro">
+        <h1>Tabela de Cores HTML!</h1> 
+    </div>
+    <div class="fundo1">
+        <table width="1900" border="1px" height="400px">
+            <tr>
+                <th>Nome da Cor</th>
+                <th>Código hexadecimal</th>
+                <th>Código RGB</th>
+            </tr>
+            <tr class="cor1">
+                <td>SlateBlue1</td>
+                <td>#836FFF</td>
+                <td>(131,111,255)</td>
+            </tr>
+            <tr class="cor2">
+                <td>MediumBlue</td>
+                <td>#0000CD</td>
+                <td>(0,0,205)</td>
+            </tr>
+            <tr class="cor3">
+                <td>DeepSkyBlue</td>
+                <td>#00BFFF</td>
+                <td>(0,191,255)</td>
+            </tr>
+            <tr class="cor4">
+                <td>Teal</td>
+                <td>#008080</td>
+                <td>(0,128,128)</td>
+            </tr>
+            <tr class="cor6">
+                <td>BlueViolet</td>
+                <td>#8A2BE2</td>
+                <td>(138,43,226)</td>
+            </tr>
+            <tr class="cor7">
+                <td>MediumVioletRed</td>
+                <td>#C71585</td>
+                <td>(199,21,133))</td>
+            </tr>
+            <tr class="cor8">
+                <td>Crimson</td>
+                <td>#DC143C</td>
+                <td>(220,20,60)</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p class="letra_final">Nome: Nicolas e Giovanna</p>
+        <p class="letra_final">E.E Attilia Prado Margarido</p> 
+        <p class="letra_final">Data: 12/02/2025</p>
+    </div>
+</body>
 </html>
